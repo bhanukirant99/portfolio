@@ -28,10 +28,15 @@ hr {
     margin: auto;
 }
 
+/* links */
+
 .link {
+    
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .primaryLink {
@@ -47,6 +52,8 @@ hr {
     color: var(--primary-color);
 }
 
+/* lists */
+
 .list-non-bullet {
     list-style: none;
 }
@@ -56,6 +63,8 @@ hr {
     padding: 0rem 1rem;
     color: white;
 }
+
+/* navigation */
 
 .navigation {
     background-color: var(--primary-color);
@@ -79,6 +88,8 @@ hr {
     font-weight: bold;
 }
 
+/* header */
+
 .hero {
     padding: 2rem;
 }
@@ -90,10 +101,16 @@ hr {
 }
 
 .hero-h2 {
-    font-size: x-large;
+    font-size: xx-large;
     color: var(--dark-gray);
     text-align: center;
 }
+
+.hero span {
+    color: var(--primary-color);
+}
+
+/* section */
 
 .section {
     padding: 1rem;
@@ -107,6 +124,8 @@ hr {
     background-color: var(--light-gray);
 }
 
+/* footer */
+
 .footer {
     background-color: var(--primary-color);
     padding: 2rem;
@@ -117,6 +136,11 @@ hr {
 
 .footer .link {
     color: var(--light-gray);
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul {
