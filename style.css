@@ -26,6 +26,13 @@ hr {
 .container-center {
     max-width: 700px;
     margin: auto;
+    margin-bottom: 1rem;
+}
+
+.container-center span{
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-top: 2rem;
 }
 
 /* links */
@@ -109,6 +116,7 @@ hr {
     max-width: 400px;
     display: block;
     margin: auto;
+    padding-top: 2rem;
 }
 
 .hero-h2 {
