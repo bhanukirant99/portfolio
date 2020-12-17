@@ -62,6 +62,12 @@ hr {
     padding-bottom: 2rem;
 }
 
+.list-non-bullet span {
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+
 
 .list-item-inline {
     display: inline;
