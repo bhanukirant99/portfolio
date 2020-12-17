@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+
+:root {
+    --primary-color: #536DFE;
+    --dark-gray: #939393;
+    --light-gray: #F3F4F6;
+}
+
+body {
+    font-family: 'Andika New Basic', sans-serif;
+    margin: 0px;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.container {
+    padding: 0.5rem 1rem;
+}
+
+.containerFuild{
+    padding: 0rem 1rem;
+}
+
+.containerCenter {
+    max-width: 700px;
+    margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 5px;
+}
+
+.primaryLink {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondaryLink {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+    color: white;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem 
+}
+
+.nav-brand {
+    font-weight: bold;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero-img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero-h2 {
+    font-size: x-large;
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.section {
+    padding: 1rem;
+}
+
+.section h4{
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--light-gray);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: white;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.footer .link {
+    color: var(--light-gray);
+}
+
+.footer ul {
+    padding-inline-start: 0;
+}
