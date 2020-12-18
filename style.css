@@ -64,10 +64,10 @@ hr {
     list-style: none;
 }
 
-.list-non-bullet small {
+/* .list-non-bullet small {
     display: block;
     padding-bottom: 2rem;
-}
+} */
 
 .list-non-bullet span {
     padding-left: 1rem;
@@ -80,6 +80,24 @@ hr {
     display: inline;
     padding: 0rem 1rem;
     color: white;
+}
+
+.technologies {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blogs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* navigation */
@@ -137,6 +155,10 @@ hr {
 
 .section h4{
     text-align: center;
+}
+
+.span-date {
+    padding: 0rem 0.5rem;
 }
 
 .ow {
