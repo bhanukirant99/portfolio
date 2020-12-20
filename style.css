@@ -56,10 +56,10 @@ hr {
     margin: 0rem 1rem 1rem 0rem;
 }
 
-.border-bottom li {
+/* .border-bottom li {
     border-bottom: 1px solid black;
     margin: 2rem 35rem;
-}
+} */
 
 /** look into BEM naming convention for CSS **/
 
