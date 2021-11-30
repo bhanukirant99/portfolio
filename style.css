@@ -31,6 +31,18 @@ hr {
     margin: auto;
 }
 
+.center-resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
 /** links **/
 .link {
     box-sizing: border-box;
